@@ -26,7 +26,7 @@ public class ConnectionFactory {
 			conexao = DriverManager.getConnection(URL, USUARIO, SENHA);
 			
 		} catch (Exception e) {
-			System.out.println("Erro ao criar conex�o com o banco: " + URL);
+			System.out.println("Erro ao criar conexão com o banco: " + URL);
 			e.printStackTrace();
 		}
 		return conexao;

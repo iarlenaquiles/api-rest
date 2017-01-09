@@ -39,13 +39,6 @@ public class UsuarioResource {
 		return json;
 	}
 
-	// @POST
-	// @Consumes("application/json")
-	// @Produces("application/json")
-	// @Path("/inserir")
-	// public Usuario addUsuario(Usuario usuario) {
-	// return user.addUsuario(usuario);
-	// }
 
 	@POST
 	@Consumes("application/json")
